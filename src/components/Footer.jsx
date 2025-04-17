@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export function Footer(){
     return(
         <div className={styles.footer}>
-            <Link className={styles.link} to='/about'> Описание </Link>
+            <Link className={styles.link} to='/Map/about'> Описание </Link>
         </div>
     );
 }

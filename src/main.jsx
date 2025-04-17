@@ -7,11 +7,11 @@ import {About} from './pages/About.jsx'
 
 const router = createBrowserRouter([
   {
-      path: '/',
+      path: '/Map/',
       element: <Home/>
   },
   {
-      path: '/about',
+      path: '/Map/about',
       element: <About/>
   }
 ])
